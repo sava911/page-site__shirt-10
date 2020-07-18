@@ -1,0 +1,29 @@
+.information {
+  margin-bottom: 90px;
+}
+.information__list {
+  position: relative;
+  
+}
+.information__item {
+
+      display: flex;
+      border: 5px solid var(--yellow);
+     position: absolute;
+  background-color: #fcf5e6;
+}
+
+.information__item-col {
+  border-right: 2px solid #e0d9c8;
+  
+}
+
+.information__item-col:last-child {
+  border-right: 0;
+}
+
+.information__item-col-right {
+flex: 2;
+padding: 45px;
+}
+

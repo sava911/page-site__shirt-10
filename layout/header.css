@@ -1,0 +1,45 @@
+.header {
+  max-width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+}
+
+.mail {
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color: inherit;
+}
+.mail__content {
+  background: #212121;
+  color: var(--yellow);
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.products__header {
+background: url('../images/bg/hero.jpg') center center / cover no-repeat;
+margin-bottom: 90px;
+  width: 1645px;
+  padding: 21px;
+}
+
+.lined-text--header {
+  font-size: 30px !important;
+}
+
+.header__image-pic {
+
+position: absolute;
+width: 40%;
+top: -5%;
+left: 52%;
+}
+
+.fade-slider__text--header {
+  left: 43%;
+  top: 5%;
+}

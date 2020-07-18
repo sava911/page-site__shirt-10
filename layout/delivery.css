@@ -1,0 +1,7 @@
+
+.delivery__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 45px 75px;
+}

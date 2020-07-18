@@ -1,0 +1,39 @@
+.tsherts-opcions__brand {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: var(--titleFont);
+  color: var(--yellow);
+}
+
+.tsherts-opcions__name {
+  color: var(--black);
+  font-size: 47px;
+  text-transform: uppercase;
+  font-family: var(--titleFont);
+}
+
+.tsherts-opcions__price {
+    background: var(--yellow);
+    width: 95px;
+}
+.tsherts-opcions__price--amound {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--titleFont);
+  color: #212121;
+  text-align: center;
+}
+
+.tsherts-opcions__info, .tsherts-opcions__about {
+  border-bottom: 2px solid #e0d9c8;
+  padding: 30px;
+}
+
+.tsherts-opcions__item {
+  color: var(--black);
+  margin-bottom: 20px;
+}
+
+.tsherts-opcions__item:last-child {
+  margin-bottom: 0;
+}

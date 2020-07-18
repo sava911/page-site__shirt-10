@@ -1,0 +1,34 @@
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.filter__item {
+  margin-right: 40px;
+}
+
+.filter__item:last-child {
+  margin-right: 0;
+}
+
+.filter__link {
+  font-family: var(--titleFont);
+  text-transform: uppercase;
+  padding: 3px 21px;
+  color: var(--black);
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.filter__link:hover {
+  color: var(--red);
+  transition: .3s;
+}
+
+.filter__item--active .filter__link {
+  color: var(--yellow);
+  background-color: var(--black); }

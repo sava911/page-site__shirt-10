@@ -1,0 +1,50 @@
+
+.information__item-col--left {
+flex-basis: 33%;}
+
+.information__item-col--table {
+  flex: 2;
+}
+.size-table__image {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 27px;
+}
+
+.size-table__image-pic {
+  width: 80%;
+}
+
+.size-table__list {
+  font-size: 12px;
+
+}
+
+.size-table__desc {
+  width: 70%;
+  margin: auto;
+}
+.size-table__item {
+  margin-top: 10px;
+}
+
+.table-size {
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.table-name {
+width: 18%;
+}
+
+
+td {
+border: 1px solid #e0d9c8;
+padding: 21px;
+width: 10%;
+} 
+
+.table-name--color {
+  background-color: #e0d9c8;
+}

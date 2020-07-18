@@ -1,0 +1,25 @@
+.btn {
+  text-transform: uppercase;
+  font-family: var(--titleFont);
+  font-size: 24px;
+  padding: 2px 30px;
+  background: var(--black);
+  color: var(--yellow);
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+.btn:hover {
+  background: var(--red);
+  color: #fff;
+  transition: .3s;
+}
+
+.tsherts-choice__btn {
+  font-size: 28px;
+  padding: 1px 70px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}

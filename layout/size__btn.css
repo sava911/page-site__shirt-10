@@ -1,0 +1,50 @@
+.tsherts-choice__size {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.size__btn input {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+.size__btn {
+  margin-right: 10px;
+}
+
+.size__btn:last-child {
+  margin-right: 0;
+}
+
+.size__btn-radio {
+  display: inline-block;
+  border: 1px solid #e0d9c8;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  height: 48px;
+  min-width: 48px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.size__btn-radio:hover {
+background-color: var(--yellow);
+}
+
+input[type="radio"]:checked+.size__btn-radio {
+  background-color: var(--yellow);
+}
+
+input[type="radio"]:disabled+.size__btn-radio {
+  color: #e0d9c8;
+}
+
+input[type="radio"]:disabled+.size__btn-radio:hover {
+  background-color:  initial;
+}
